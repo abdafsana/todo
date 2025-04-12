@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    /* font-family: "Edu AU VIC WA NT Arrows", cursive; */
+}
+
+.container {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 38%;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #C4C4C4;
+}
+
+.box-header {
+    width: 100%;
+    height: 60px;
+    background-color: #510b77;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.box-body {
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 15px;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-size: 26px;
+}
+
+.box-icon {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-arrow-down-wide-short{
+    font-size: 25px;
+    color: #42135b;
+}
+
+.box-input {
+    width: 80%;
+    height: 60px;
+    position: relative;
+    margin: auto;
+}
+
+.input {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+}
+
+h1 {
+    color: rgb(204, 19, 80);
+}
+.input::placeholder{
+    color: #4e0b6b;
+    font-size: 16px;
+    padding: 10px;
+    font-family: initial;
+}
+.input:focus{
+    outline-color: #4e0b6b;
+}
+.fa-xmark{
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    font-size: 18px;
+    cursor: pointer;
+    color: rgb(204, 19, 80);
+}
+.footer-iconBox{
+    width: 30%;
+    height: 50px;
+    background-color: #42135b;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.fa-circle-plus{
+    width: 100%;
+    height: 100%;
+    font-size: 49px;
+    line-height: 1;
+    color: #E5E5E5;
+    align-self: center;
+}
