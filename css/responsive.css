@@ -1,0 +1,78 @@
+@media (max-width: 1440px) {
+    .box-body {
+        font-size: 28px;
+    }
+    .footer-iconBox {
+        width: 34%;
+    }
+    .input {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .box {
+        width: 60%;
+    }
+
+    .box-body {
+        font-size: 24px;
+    }
+
+    .footer-iconBox {
+        width: 30%;
+    }
+
+    .input {
+        font-size: 15px;
+    }
+}   
+
+@media (max-width: 768px) {
+    .box {
+        width: 70%;
+    }
+
+    .box-body {
+        font-size: 22px;
+    }
+
+    .box-input {
+        width: 100%;
+    }
+
+    .input {
+        font-size: 14px;
+    }
+    .footer-iconBox {
+        width: 37%;
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 90%;
+    }
+
+    .box-body {
+        font-size: 18px;
+    }
+
+    .footer-iconBox {
+        width: 35%;
+    }
+
+    .todo-list {
+        max-height: 120px;
+    }
+
+    .input {
+        font-size: 12px;
+    }
+
+    .add {
+        font-size: 16px;
+    }
+
+}
